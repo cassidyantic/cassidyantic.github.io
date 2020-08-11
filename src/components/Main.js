@@ -116,8 +116,12 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
+
+          {/* contact form to hook using getform */}
+          
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          {/* <form method="post" action="#"> */}
+          <form action="https://getform.io/f/0318d066-2afb-4d7e-be4e-9992a423301b" method="POST">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -139,6 +143,8 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
+
+
           <ul className="icons">
             <li>
               <a

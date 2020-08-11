@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+
 // Misc.
 	$misc: (
 		z-index-base:				10000
@@ -21,18 +23,18 @@
 
 // Font.
 	$font: (
-		family:						('Source Sans Pro', sans-serif),
-		family-fixed:				('Courier New', monospace),
-		weight:						300,
-		weight-bold:				600,
+		family:						('Rubik', sans-serif),
+		family-fixed:				('Roboto', monospace),
+		weight:						200,
+		weight-bold:				300,
 		letter-spacing:				0.2rem,
 		letter-spacing-heading:		0.5rem
 	);
 
 // Palette.
 	$palette: (
-		bg:							#1b1f22,
-		bg-alt:						#000000,
+		bg:							#444A52,
+		bg-alt:						#444A52,
 		bg-overlay:					rgba(19,21,25,0.5),
 		fg:							#ffffff,
 		fg-bold:					#ffffff,

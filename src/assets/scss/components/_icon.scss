@@ -10,8 +10,16 @@
 		@include icon;
 		border-bottom: none;
 		position: relative;
+		color: rgba(255, 255, 255, 0.5);
+	
 
 		> .label {
 			display: none;
+		}
+
+		&:hover {
+			color: rgb(255, 255, 255);
+			font-size: 62em;
+			transition: 3s ease-out;
 		}
 	}
