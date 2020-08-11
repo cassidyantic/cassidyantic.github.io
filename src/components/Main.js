@@ -1,8 +1,10 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import physicaltherapy from '../images/physicaltherapy.jpg'
+import stargrabber from '../images/stargrabber.jpg'
+import studybuddy from '../images/studybuddy.jpg'
+import profilepic from '../images/profilepic.jpg'
+import aboutmephoto from '../images/aboutmephoto.jpg'
 
 class Main extends React.Component {
   render() {
@@ -30,27 +32,19 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={aboutmephoto} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+          Creative software developer with experience in front-end and back-end web development,
+          specializing in user experience optimization. Solution-driven, problem-solving debugger 
+          with a keen eye for detail. Friendly, communicative, and hard-working teammate. 
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+          Techical proficiencies: JavaScript, TypeScript, Java, HTML, CSS, Sass, Bootstrap, jQuery, 
+          React.js, Node.js, Three.js, C, C#, .NET, RESTful web services, SOAP, XML tools, WordPress,
+          Git, VMWare, SQLite. 
+          <br/>
+          Technical familiarities: MySQL, MS SQL, Python, AWS.
           </p>
           {close}
         </article>
@@ -62,25 +56,32 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
+          <h2 className="major">Projects</h2>
+          {/* <span className="image projone">
+            <img src={stargrabber} alt="" />
+          </span> */}
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+          <a href="https://codepen.io/cassantic/pen/wvKpKpv" target="_blank">
+          <img className="image projone" src={stargrabber} alt="" />
+          </a>
+            A JavaScript game about an alligator and frog in space, built using Three.js and Tween.js. 
+            Click to jump and grab the stars, and look out for moon rocks! 
+            <br/>
+
+          <a href="https://codepen.io/cassantic/pen/VweLWbQ" target="_blank">
+          <img className="image projone" src={physicaltherapy} alt="" />
+          </a>
+            A simple sample dynamic webpage using JavaScript, HTML and CSS. 
+            <br/>
+
+            <a href="https://github.com/cassidyantic/pearapp" target="_blank">
+          <img className="image projone" src={studybuddy} alt="" />
+          </a>
+            A web application created to connect students with each other
+            to form study groups. Allows students to create profiles, 
+            set up events and contact each other. Built using C# .NET, React, and TypeScript.
           </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+        
           {close}
         </article>
 
@@ -92,17 +93,18 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
+          <span className="image profile">
+            <img src={profilepic} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+          Hi, my name is Cassidy Antic! 
+          <br/>
+          I am passionate about building software and working with new technologies. 
+          I have been developing software for three years as a freelancing web developer, building
+          web based applications, static and dynamic websites, games, animations, and UI components.
+          <br/>
+          I am now looking for an opportunity to join a team where I can plant my roots and build something meaningful. 
+
           </p>
           {close}
         </article>
@@ -140,25 +142,25 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
+                href="https://www.linkedin.com/in/cassidyantic/"
+                className="icon fa-linkedin"
               >
-                <span className="label">Twitter</span>
+                <span className="label">LinkedIn</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
+              <a href="https://codepen.io/cassantic" className="icon fa-codepen">
+                <span className="label">CodePen</span>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="https://codebushi.com" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
-            </li>
+            </li> */}
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/cassidyantic"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>

@@ -84,4 +84,37 @@
 				margin: (_size(element-margin) * 0.75) 0;
 			}
 		}
+
+		&.projone {
+			display: block;
+			margin: (_size(element-margin) * 1.25) 0;
+			width: 100%;
+
+			img {
+				width: 100%;
+			}
+
+			&:hover {
+				transition: transform 2s;
+				transform: translate(8px, 8px);
+			}
+		}
+
+		&.profile {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			// margin: (_size(element-margin) * 1.25) 0;
+			width: 50%;
+			height: 50%;
+		
+
+			img {
+				width: 100%;
+				border-radius: 15px;
+			}
+		}
+
 	}
