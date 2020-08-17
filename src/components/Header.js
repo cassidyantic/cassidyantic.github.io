@@ -5,7 +5,7 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-cloud"></span>
+      <span className="icon cloud fa-cloud"></span>
     </div>
 
     <div className="content">
